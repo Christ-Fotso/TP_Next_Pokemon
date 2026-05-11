@@ -1,0 +1,178 @@
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+.backBtn {
+  background: #0f3460;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 24px;
+  transition: background 0.2s;
+}
+
+.backBtn:hover {
+  background: #e84393;
+}
+
+.card {
+  background: #16213e;
+  border-radius: 16px;
+  padding: 30px;
+  border: 1px solid #222;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.id {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 6px 0;
+}
+
+.types {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.badge {
+  padding: 4px 14px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.img {
+  display: block;
+  margin: 20px auto;
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+}
+
+.stats {
+  margin-top: 24px;
+}
+
+.stats h2 {
+  font-size: 1.2rem;
+  margin-bottom: 14px;
+  color: #ccc;
+}
+
+.statRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.statLabel {
+  width: 80px;
+  font-size: 0.85rem;
+  color: #aaa;
+  flex-shrink: 0;
+}
+
+.statValue {
+  width: 36px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.barBg {
+  flex: 1;
+  height: 8px;
+  background: #0f3460;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  background: linear-gradient(90deg, #e84393, #f9c74f);
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+.evolutions {
+  margin-top: 30px;
+}
+
+.evolutions h2 {
+  font-size: 1.2rem;
+  margin-bottom: 14px;
+  color: #ccc;
+}
+
+.evoList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.evoCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f3460;
+  padding: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+  min-width: 120px;
+}
+
+.evoCard:hover {
+  transform: translateY(-4px);
+  background: #e84393;
+}
+
+.evoInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.evoName {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.evoId {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.noEvo {
+  color: #666;
+  font-style: italic;
+}
